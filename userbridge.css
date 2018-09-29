@@ -1,0 +1,202 @@
+.clear
+{
+	padding: 80px;
+}
+.space
+{
+  color: white;
+
+    bottom: 0;
+    background-color: #696969;
+   
+    width: 100%;
+
+    color: white;
+    height: 90px;
+
+
+    position: absolute;
+  top: 800px;
+  
+}
+.spacez
+{
+  color: white;
+
+    bottom: 0;
+    background-color: #696969;
+   
+    width: 100%;
+
+    color: white;
+    height: 90px;
+
+
+    position: absolute;
+  top: 900px;
+  
+}
+.twitter{
+  position: absolute;
+     top: -81px;
+  
+   
+  left: 620px;
+    
+
+
+}
+
+.f{
+   position: absolute;
+   top: -81px;
+   left: 672px;
+
+  position: absolute;
+    
+
+}
+.insta{
+
+  position: absolute;
+      top: -81px;
+   left: 720px;
+   
+  
+
+}
+
+.copyright{
+
+  top: 60px;
+  position: absolute;
+  left: 565px;
+   bottom: 0;
+   font-size: 12px;
+    text-align: center;
+}
+
+.logoH3
+{
+
+position: absolute;
+top: 15px;
+left: 40px;
+font-size: 13px;
+
+color: white;
+}
+
+.logoH4
+{
+  position: absolute;
+  top: -35px;
+  left: 20px;
+}
+
+.logos2{
+
+  position: absolute;
+  top: -81px;
+  left: 370px;
+}
+
+
+
+.pointer {cursor: pointer;}
+.logoH
+{
+
+position: absolute;
+top: 10px;
+left: 20px;
+font-size: 13px;
+opacity: .8;
+}
+
+
+.logoH2
+{
+  position: absolute;
+  top: -8%;
+  left: 10px;
+}
+
+
+
+
+.logos{
+
+  position: absolute;
+  top: -88px;
+  left: 350px;
+}
+ul{
+  position: absolute;
+  top:6%;
+  left: 899px;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 899px;
+  
+}
+ul li
+{
+  list-style: none;
+}
+
+ul li a{
+  position: relative;
+  display: block;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 16px;
+  text-transform: : uppercase;
+  text-decoration: none;
+  transition: .5s;
+  color: #b666d2;
+   font-family: "Lato", sans-serif;
+}
+}
+ul li a:before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #178fd6;
+  overflow: hidden;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .5s;
+}
+ul li a:hover:before{
+
+    transform: scaleX(1);
+    transform-origin: left;
+}
+ul li a:after
+{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: #178fd6;
+  overflow: hidden;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .5s;
+}
+ul li a:hover:after{
+
+    transform: scaleX(1);
+    transform-origin: right;
+}
